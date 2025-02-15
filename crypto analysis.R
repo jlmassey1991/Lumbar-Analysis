@@ -36,7 +36,7 @@ options(scipen=999)
 #####################
 
 # Read in LP Data
-survival <- read_sas("C:/Users/qne4/CDC/NCEZID-MDB - Data Science and Informatics (DSI)/Data Science/people/Massey-Jason/Data Support (MDB)/Kaitlin Benedict/lumbar survival/lp2.sas7bdat")
+survival <- read_sas("XXXX")
 
 
 #########
