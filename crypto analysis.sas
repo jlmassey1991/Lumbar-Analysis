@@ -1,12 +1,12 @@
 
 ****************************************************************************************************************************
 * Program:  crypto analysis.sas
-* Author:	Kaitlin Benedict
+* Author:	Kaitlin Benedict and Jason Massey 
 * Purpose:	Analyze Premier Healthcare Data patients hospitalized with crypto meningitis (identified by ICD-10 code)
 ****************************************************************************************************************************;
 
-libname cr '\\cdc.gov\project\CCID_NCZVED_DFBMD_MDB\Mycotics-Epi\Premier\Crypto\analysis'; run;
-libname LU '\\cdc.gov\project\NCEZID_ERIB_CERNER2\PREMIER\LookupArchive202210209'; run;
+libname cr 'XXXX'; run;
+libname LU 'XXXXX'; run;
 
 *Import data. Pulled from Databricks on 10/22/2024*;
 PROC IMPORT OUT=cr.patdemo 
